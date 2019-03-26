@@ -1,5 +1,5 @@
 # Deep-Co-Clustering
-Code and data for Deep Co-Clustering (SDM'19)
+Code and data of Deep Co-Clustering (SDM'19)
 =============================================
 
 1. The main file is: main_coil20.py
