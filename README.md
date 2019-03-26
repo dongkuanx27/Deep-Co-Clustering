@@ -1,6 +1,6 @@
 # Deep-Co-Clustering
-Code and data of Deep Co-Clustering (SDM'19)
 =============================================
+Code and data of Deep Co-Clustering (SDM'19)
 
 Our proposed approach, DeepCC, is the 1st deep neural network-based model for the co-clustering task.
 
