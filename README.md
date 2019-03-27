@@ -1,6 +1,7 @@
 # Deep-Co-Clustering
 
-This is a reference implemenmtation for Deep Co-Clustering (SDM'19). Please feel free to contact Dongkuan Xu (dux19@psu.edu) if you have any question.
+This is a reference implemenmtation for Deep Co-Clustering (SDM'19).
+Please feel free to contact Dongkuan Xu (dux19@psu.edu) if you have any question.
 
 # Main function
 The main file is /DeepCC/Code/main_coil20.py. It is for the Coil20 dataset.
