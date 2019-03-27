@@ -492,16 +492,16 @@ class KddcupPaeGmm:
         Kmeans_acc, Kmeans_nmi = self.eval(true_label, pred_label_kmeans_final)
         # print("Kmeans-Acc %g: Kmeans-NMI %g" % (Kmeans_acc , Kmeans_nmi))
 
-        sio.savemat('/home/dsi/dxu/Backups/Research_Server/Working/Deep_co_clustering/Code/Public_code/result.mat', \
-{'RR_obj_oa':RR_obj_oa, 'RR_obj_oa_row':RR_obj_oa_row, 'RR_obj_oa_col':RR_obj_oa_col,'RR_obj_cross':RR_obj_cross,\
-'RR_error_oa':RR_error_oa, 'RR_train_l2_reg':RR_train_l2_reg, 'RR_loss':RR_loss, 'RR_pen_dev':RR_pen_dev,\
-'RR_error_oa_col':RR_error_oa_col, 'RR_train_l2_reg_col':RR_train_l2_reg_col, 'RR_loss_col':RR_loss_col, 'RR_pen_dev_col':RR_pen_dev_col,\
- 'RR_acc':RR_acc, 'RR_nmi':RR_nmi, 'RR_label_size':RR_label_size, 'RR_label_size_col':RR_label_size_col,\
-'RR_MI_org':RR_MI_org, 'RR_MI_red':RR_MI_red, 'acc_AE_Kmeans':acc_AE_Kmeans, 'nmi_AE_Kmeans':nmi_AE_Kmeans, 'pred_label_list':pred_label_list, 'pred_label_col_list':pred_label_col_list})
+#         sio.savemat('.../result.mat', \
+# {'RR_obj_oa':RR_obj_oa, 'RR_obj_oa_row':RR_obj_oa_row, 'RR_obj_oa_col':RR_obj_oa_col,'RR_obj_cross':RR_obj_cross,\
+# 'RR_error_oa':RR_error_oa, 'RR_train_l2_reg':RR_train_l2_reg, 'RR_loss':RR_loss, 'RR_pen_dev':RR_pen_dev,\
+# 'RR_error_oa_col':RR_error_oa_col, 'RR_train_l2_reg_col':RR_train_l2_reg_col, 'RR_loss_col':RR_loss_col, 'RR_pen_dev_col':RR_pen_dev_col,\
+#  'RR_acc':RR_acc, 'RR_nmi':RR_nmi, 'RR_label_size':RR_label_size, 'RR_label_size_col':RR_label_size_col,\
+# 'RR_MI_org':RR_MI_org, 'RR_MI_red':RR_MI_red, 'acc_AE_Kmeans':acc_AE_Kmeans, 'nmi_AE_Kmeans':nmi_AE_Kmeans, 'pred_label_list':pred_label_list, 'pred_label_col_list':pred_label_col_list})
 
-        prd_lab     = pred_label_list[-1]
-        prd_lab_col = pred_label_col_list[-1]
-        sio.savemat('/home/dsi/dxu/Backups/Research_Server/Working/Deep_co_clustering/Code/Public_code/'+'DeepCC'+'_'+'coil20'+'_'+'prdlabel.mat', {'prd_lab':prd_lab, 'prd_lab_col':prd_lab_col})
+#         prd_lab     = pred_label_list[-1]
+#         prd_lab_col = pred_label_col_list[-1]
+#         sio.savemat('.../DeepCC'+'_'+'coil20'+'_'+'prdlabel.mat', {'prd_lab':prd_lab, 'prd_lab_col':prd_lab_col})
 
         sess.close()
         return RR_acc, RR_nmi
