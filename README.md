@@ -25,3 +25,14 @@ The output are the accuracy and NMI of each iteration.
 Another important file is: /Code/core/paegmm/kddcup10/kddcup10_pae_gmm.py. This file contains the main body of DeepCC (including the hyperparameter setting, Line 254-257).
 
 The neural network structure and hyperparameter setting of DeepCC for different datasets uesed in our paper are shown in Table-1 and Table-2 of 'SDM2019_DeepCC_Supplemental_Materials.pdf' respectively.
+
+# Citing
+Please consider citing the following paper if you find DeepCC useful for your research:
+
+@inproceedings{xu2019de,
+  title={Deep Co-Clustering},
+  author={Xu, Dongkuan and Cheng, Wei and Zong, Bo and Ni, Jingchao and Song, Dongjin and Yu, Wenchao and Chen, Yuncong and Chen, Haifeng and Zhang, Xiang},
+  booktitle={Proceedings of the SIAM International Conference on Data Mining},
+  year={2019},
+  organization={SIAM}
+}
