@@ -30,9 +30,15 @@ The neural network structure and hyperparameter setting of DeepCC for different 
 Please consider citing the following paper if you find DeepCC useful for your research:
 
 @inproceedings{xu2019de,
+  
   title={Deep Co-Clustering},
+  
   author={Xu, Dongkuan and Cheng, Wei and Zong, Bo and Ni, Jingchao and Song, Dongjin and Yu, Wenchao and Chen, Yuncong and Chen, Haifeng and Zhang, Xiang},
+  
   booktitle={Proceedings of the SIAM International Conference on Data Mining},
+  
   year={2019},
+  
   organization={SIAM}
+
 }
