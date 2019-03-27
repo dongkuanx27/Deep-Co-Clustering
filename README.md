@@ -10,9 +10,9 @@ Other datasets used in our paper are included in /DeepCC/Data.
 # Run DeepCC on your datasets
 It is easy to run DeepCC on your datasets by changing the data_path in main_coil20.py (Line 13).
 
-Please change the first dimensions of 'ae_config' and 'ae_col_config' correspondingly when run it for other datasets (Line 19, 21).
+Please also change the first dimensions of 'ae_config' and 'ae_col_config' when for other datasets (Line 19, 21).
 
-'ae_config' and 'ae_col_config' are the autoencoders for instances and features respectively. 
+'ae_config' and 'ae_col_config' are the autoencoder structures for instances and features respectively. 
 
 # Input and Output
 The input is the data in the form of a matrix. Rows and columns represent instances and features respectively.
