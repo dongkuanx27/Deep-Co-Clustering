@@ -35,10 +35,9 @@ Please consider citing the following paper if you find DeepCC useful for your re
   
   author={Xu, Dongkuan and Cheng, Wei and Zong, Bo and Ni, Jingchao and Song, Dongjin and Yu, Wenchao and Chen, Yuncong and Chen, Haifeng and Zhang, Xiang},
   
-  booktitle={Proceedings of the SIAM International Conference on Data Mining},
+  booktitle={Proceedings of the 2019 SIAM International Conference on Data Mining},
   
   year={2019},
   
   organization={SIAM}
-
 }
