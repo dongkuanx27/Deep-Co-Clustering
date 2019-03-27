@@ -10,7 +10,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"
 if __name__ == '__main__':
     
     # data_path
-    Coil20 = ['/home/dsi/dxu/Backups/Research_Server/Working/Deep_co_clustering/Data/coil20.mat', 20, 'coil20']
+    Coil20 = ['.../Data/coil20.mat', 20, 'coil20']
     
     filename   = Coil20[0]
     num_clus_r = Coil20[1]
