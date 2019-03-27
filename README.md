@@ -3,15 +3,21 @@
 This is a reference implemenmtation for Deep Co-Clustering (SDM'19). Please feel free to contact Dongkuan Xu (dux19@psu.edu) if you have any question.
 
 # Main function
-The main file is: main_coil20.py. It is for the Coil20 dataset.
+The main file is DeepCC/Code/main_coil20.py. It is for the Coil20 dataset.
 
-It is easy to run DeepCC on other datasets by changing the data_path in main_coil20.py (Line 13).
+Other datasets used in our paper are included in DeepCC/Data.
+
+# Input and Output
+The input is the data in the form of a matrix. Rows and columns represent instances and features respectively.
+
+The output is the accuracy and NMI of each iteration.
+
+# Run DeepCC on your datasets
+It is easy to run DeepCC on your datasets by changing the data_path in main_coil20.py (Line 13).
 
 Please change the input dimensions of autoencoders correspondingly when run it for other datasets (Line 19, 21).
 
-# Input and Output
-
-# Customize model structure for your use
+# Important
 
 1. The main file is: main_coil20.py
 
