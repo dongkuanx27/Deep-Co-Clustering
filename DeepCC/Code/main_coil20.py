@@ -25,9 +25,9 @@ if __name__ == '__main__':
     accuracy     = []
     NMI          = []
 
-    rounds = 1
-    epochs = 2
-    epochs_pretrain = 2
+    rounds = 10
+    epochs = 3000
+    epochs_pretrain = 3000
     for k in range(rounds):
         tf.reset_default_graph()
         machine = paegmm.KddcupPaeGmm(1024, num_clus_r, num_clus_c, ae_config, ae_col_config, gmm_config, 0)
