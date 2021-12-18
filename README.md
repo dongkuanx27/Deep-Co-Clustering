@@ -1,6 +1,6 @@
 # Deep-Co-Clustering
 
-This is a reference implemenmtation for Deep Co-Clustering (SDM'19).
+This is a reference implementation for Deep Co-Clustering (SDM'19).
 
 Please feel free to contact Dongkuan Xu (dux19@psu.edu) if you have any question.
 
